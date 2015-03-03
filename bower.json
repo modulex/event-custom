@@ -1,22 +1,10 @@
 {
     "name": "modulex-event-custom",
     "author": "yiminghe <yiminghe@gmail.com>",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "http://github.com/kissyteam/event-custom.git"
-    },
     "dependencies": {
-        "modulex-event-base": "1.x",
-        "modulex-util": "1.x"
+        "modulex-event-base": "modulex/event-base#1.x",
+        "modulex-util": "modulex/util#1.x"
     },
-    "ignore": [
-        "**/*",
-        "!build/**/*",
-        "!lib/**/*",
-        "!meta/**/*",
-        "!index.js"
-    ],
     "devDependencies": {
         "modulex": "*",
         "modulex-feature": "1.x",
